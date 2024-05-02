@@ -18,8 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
-    background: #345c46;
-    border: solid 2px rgb(35, 86, 56);
+    background: linear-gradient(#52c234,#061700);
     border-radius: 4px;
 }
 .display{
@@ -56,7 +55,7 @@ span{
      border-bottom: solid 5px #001d11;
 }
 button{
-    background:#001d11;
+    background:linear-gradient(#56ab2f,#a8e063);
     color: white;
     width: 25%;
     padding:5px;
@@ -68,5 +67,5 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background: #093321;
+    background:linear-gradient(#56ab2f,#87ce30);
 }
